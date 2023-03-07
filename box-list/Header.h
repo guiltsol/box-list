@@ -20,21 +20,21 @@ public:
 		this->s = s;
 	}
 	void setBox() {
-		cout << "¬ведите высоту = ";
+		cout << "Enter the height = ";
 		cin>> h;
-		cout << "¬ведите ширину = ";
+		cout << "Enter the width = ";
 		cin>>w;
-		cout << "¬ведите длинну = ";
+		cout << "Enter the length = ";
 		cin>>s;
 	}
 	void getInfo() {
 		cout << "H= " << h << endl;
 		cout << "W= " << w << endl;
-		cout << "S= " << s << endl;
+		cout << "L= " << s << endl;
 	}
 	void getInfoS() {
 		cout << "W= " << w << endl;
-		cout << "S= " << s << endl;
+		cout << "L= " << s << endl;
 	}
 	bool operator<=(Box b) {
 		if (h <= b.h && w <= b.w && s <= b.s) return true;
